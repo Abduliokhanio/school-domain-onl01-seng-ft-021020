@@ -13,7 +13,12 @@ class School
     roster[grade] << name
   end
   
-  def grade
-  end
+  def grade(grade)
+    roster.detect do |x, y| 
+      if x == level
+        return y 
+      end 
+    end 
+  end 
  
 end
