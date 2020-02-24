@@ -9,6 +9,7 @@ class School
   def name =(name)
   end
  
-  def
+  def name
+  end
  
 end
