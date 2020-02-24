@@ -1,6 +1,4 @@
 # code here!
-class School(name)
-  @name = name 
+class School()
+ 
 end
-
-school = School.new("Bayside High School")
